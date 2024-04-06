@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 require("dotenv").config();
 
 const openai = new OpenAI({
- apiKey: process.env.API_KEY
+ apiKey: "25252"
 });
 
 const app = express();
